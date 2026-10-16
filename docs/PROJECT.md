@@ -196,8 +196,9 @@ After the first sign-in, the user picks their starting categories. They can skip
 
 ## Open items
 
-- [ ] Google Cloud project + OAuth client (Web application)
+- [x] Google Cloud project + OAuth client (Web application)
 - [ ] Jev API docs / sample request & response
+- [ ] Type-check `.astro` files once TypeScript 7.1 is stable. For now `apps/web` runs `astro sync && bun check`, which checks `.ts`/`.tsx` only (`astro check` needs TS 6). Keep `.astro` files thin until then. To switch: add `@astrojs/ts-content-mapper`, add `contentMappers` to `apps/web/tsconfig.json`, and use `tsc --noEmit --runExternalCode`.
 - [ ] Check whether _Open panel_ in the notice can open the side panel (browsers may not count a click on the web page). Fallback: show the keyboard shortcut instead.
 - [ ] Apple Developer Program ($99/yr), needed before shipping to Safari
 - [ ] Buy usepotli.com

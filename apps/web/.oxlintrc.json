@@ -1,0 +1,5 @@
+{
+  "extends": ["../../.oxlintrc.json"],
+  "plugins": ["typescript", "unicorn", "oxc", "react", "jsx-a11y"],
+  "categories": { "correctness": "error" }
+}
