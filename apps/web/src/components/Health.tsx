@@ -10,5 +10,5 @@ export default function Health() {
       .catch(() => setStatus("API unreachable"));
   }, []);
 
-  return <p> API: {status}</p>;
+  return <p>API: {status}</p>;
 }
