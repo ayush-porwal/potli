@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "potli",
+  "compatibility_date": "2026-10-12",
+  "main": "./src/index.ts",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "potli-db",
+      "database_id": "64c144bf-99ac-4b11-9fe1-0750eaa70ff3",
+    },
+  ],
+}
